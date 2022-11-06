@@ -1,0 +1,221 @@
+Request method:	POST
+Request URI:	https://uatgbonline.e-gulfbank.com/digx-auth/v1/token
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	grant_type=CLIENT_CREDENTIALS
+				scope=accounts
+Path params:	<none>
+Headers:		Authorization=Basic ODVhMjJhMGYtNWU4Ny1kMzA0LTgyNzUtMWRiNmQzYWZjNmMxOmdiazIwMjI=
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 01 Nov 2022 18:28:23 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Content-Type-Options: nosniff
+X-Frame-Options: ALLOW
+X-ORACLE-DMS-ECID: 005v6nZdtlK6qI^5xVK6yW0006_l000QLR
+X-ORACLE-DMS-RID: 0:1
+Vary: Accept-Encoding
+Content-Encoding: gzip
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-transform
+Pragma: no-cache
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+X-Content-Type-Options: nosniff
+Referrer-Policy: no-referrer
+Access-Control-Allow-Origin: file://
+Set-Cookie: visid_incap_2558920=vMq6gampQ9OphN3+hXP27EdlYWMAAAAAQUIPAAAAAADy1QddVw9kyq5Ha1vCiCyc; expires=Wed, 01 Nov 2023 16:13:30 GMT; HttpOnly; path=/; Domain=.e-gulfbank.com
+Set-Cookie: incap_ses_1556_2558920=kU7kdJrBrDElACMV9wWYFUdlYWMAAAAA++GqEl7fjE/YD9eUJ4nwuA==; path=/; Domain=.e-gulfbank.com
+Set-Cookie: ___utmvmKaBuwfZEZ=XgzHiZKYCMK; path=/; Max-Age=900
+Set-Cookie: ___utmvaKaBuwfZEZ=PdkKPZX; path=/; Max-Age=900
+Set-Cookie: ___utmvbKaBuwfZEZ=iZT XHhOPalV: atV; path=/; Max-Age=900
+X-CDN: Imperva
+X-Iinfo: 10-3746765-3746766 NNNN CT(174 180 0) RT(1667327302329 290) q(0 0 3 -1) r(6 6) U6
+
+{
+    "status": {
+        "result": "SUCCESSFUL"
+    },
+    "access_token": "eyJhbGciOiJQUzI1NiJ9.eyJhdWQiOiJHQktUcHBSZXNvdXJjZVNlcnZlciIsInN1YiI6Ijg1YTIyYTBmLTVlODctZDMwNC04Mjc1LTFkYjZkM2FmYzZjMSIsInNjb3BlIjoiR0JLVHBwUmVzb3VyY2VTZXJ2ZXIuYWNjb3VudHMiLCJkb21haW4iOiJHQktJZGVudGl0eURvbWFpbiIsImlzcyI6Ik9CRFgtT0FVVEgiLCJjbGllbnQiOiI4NWEyMmEwZi01ZTg3LWQzMDQtODI3NS0xZGI2ZDNhZmM2YzEiLCJleHAiOjE2Njc0MTM3MDMsImlhdCI6MTY2NzMyNzMwMywianRpIjoiNjFaZnBvV2VuM0RacmpIb05qWFlVaFh5UkFrPSJ9.Y7z4Qcg_HbtNeY8zG8RaaOtox7dZHp89XAqB_ZOibJwkYnZuiVkpWEkKzD-WCCEpoSGZ6fWZcp_h9fDh5a5NIAxKQFTs0Lx13s4idDDFKeCjp8zXaXTQ1I-pOcr8-3WN1Wz_spNQJKD8El8g_5rUCfV6JAuvkw3-bWAhPL_Pq25nDQlBdfN3X63gFn89nWIOObig5YH58vsbqjD3krccL9PHw3RpbAv4T9h0DWK8qdbgYSdTBnlOffeUKSPm-9Zo2zJ51SLu_Ne5r1bjBH8aAqHMLhOBh8sgccvfFrs0_M-5v0JhVbH-s0sX8V_ksEFrFVFVfSmnn53SayIQEp9SDw",
+    "token_type": "Bearer",
+    "expires_in": 86400
+}
+Request method:	GET
+Request URI:	https://uatgbonline.e-gulfbank.com/digx-auth/v1/token/info?access_token=eyJhbGciOiJQUzI1NiJ9.eyJhdWQiOiJHQktUcHBSZXNvdXJjZVNlcnZlciIsInN1YiI6Ijg1YTIyYTBmLTVlODctZDMwNC04Mjc1LTFkYjZkM2FmYzZjMSIsInNjb3BlIjoiR0JLVHBwUmVzb3VyY2VTZXJ2ZXIuYWNjb3VudHMiLCJkb21haW4iOiJHQktJZGVudGl0eURvbWFpbiIsImlzcyI6Ik9CRFgtT0FVVEgiLCJjbGllbnQiOiI4NWEyMmEwZi01ZTg3LWQzMDQtODI3NS0xZGI2ZDNhZmM2YzEiLCJleHAiOjE2Njc0MTM3MDMsImlhdCI6MTY2NzMyNzMwMywianRpIjoiNjFaZnBvV2VuM0RacmpIb05qWFlVaFh5UkFrPSJ9.Y7z4Qcg_HbtNeY8zG8RaaOtox7dZHp89XAqB_ZOibJwkYnZuiVkpWEkKzD-WCCEpoSGZ6fWZcp_h9fDh5a5NIAxKQFTs0Lx13s4idDDFKeCjp8zXaXTQ1I-pOcr8-3WN1Wz_spNQJKD8El8g_5rUCfV6JAuvkw3-bWAhPL_Pq25nDQlBdfN3X63gFn89nWIOObig5YH58vsbqjD3krccL9PHw3RpbAv4T9h0DWK8qdbgYSdTBnlOffeUKSPm-9Zo2zJ51SLu_Ne5r1bjBH8aAqHMLhOBh8sgccvfFrs0_M-5v0JhVbH-s0sX8V_ksEFrFVFVfSmnn53SayIQEp9SDw
+Proxy:			<none>
+Request params:	<none>
+Query params:	access_token=eyJhbGciOiJQUzI1NiJ9.eyJhdWQiOiJHQktUcHBSZXNvdXJjZVNlcnZlciIsInN1YiI6Ijg1YTIyYTBmLTVlODctZDMwNC04Mjc1LTFkYjZkM2FmYzZjMSIsInNjb3BlIjoiR0JLVHBwUmVzb3VyY2VTZXJ2ZXIuYWNjb3VudHMiLCJkb21haW4iOiJHQktJZGVudGl0eURvbWFpbiIsImlzcyI6Ik9CRFgtT0FVVEgiLCJjbGllbnQiOiI4NWEyMmEwZi01ZTg3LWQzMDQtODI3NS0xZGI2ZDNhZmM2YzEiLCJleHAiOjE2Njc0MTM3MDMsImlhdCI6MTY2NzMyNzMwMywianRpIjoiNjFaZnBvV2VuM0RacmpIb05qWFlVaFh5UkFrPSJ9.Y7z4Qcg_HbtNeY8zG8RaaOtox7dZHp89XAqB_ZOibJwkYnZuiVkpWEkKzD-WCCEpoSGZ6fWZcp_h9fDh5a5NIAxKQFTs0Lx13s4idDDFKeCjp8zXaXTQ1I-pOcr8-3WN1Wz_spNQJKD8El8g_5rUCfV6JAuvkw3-bWAhPL_Pq25nDQlBdfN3X63gFn89nWIOObig5YH58vsbqjD3krccL9PHw3RpbAv4T9h0DWK8qdbgYSdTBnlOffeUKSPm-9Zo2zJ51SLu_Ne5r1bjBH8aAqHMLhOBh8sgccvfFrs0_M-5v0JhVbH-s0sX8V_ksEFrFVFVfSmnn53SayIQEp9SDw
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 01 Nov 2022 18:28:25 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Content-Type-Options: nosniff
+X-Frame-Options: ALLOW
+X-ORACLE-DMS-ECID: 005v6nZl78G6qI^5xVK6yW0006_l000QLS
+X-ORACLE-DMS-RID: 0:1
+Vary: Accept-Encoding
+Content-Encoding: gzip
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-transform
+Pragma: no-cache
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+X-Content-Type-Options: nosniff
+Referrer-Policy: no-referrer
+Access-Control-Allow-Origin: file://
+Set-Cookie: visid_incap_2558920=rLHuiC2NRYq7GalxJzejvEllYWMAAAAAQUIPAAAAAAApeRFDZEZLHjFQ50lePNcD; expires=Wed, 01 Nov 2023 16:13:29 GMT; HttpOnly; path=/; Domain=.e-gulfbank.com
+Set-Cookie: incap_ses_1556_2558920=pIIKbJ2xPgPUASMV9wWYFUllYWMAAAAAR+oftG/Nt0OkKkHrXX9+dw==; path=/; Domain=.e-gulfbank.com
+Set-Cookie: ___utmvmKaBuwfZEZ=iDprYcBLoOU; path=/; Max-Age=900
+Set-Cookie: ___utmvaKaBuwfZEZ=OZssUkW; path=/; Max-Age=900
+Set-Cookie: ___utmvbKaBuwfZEZ=WZL XwiOealt: rtj; path=/; Max-Age=900
+X-CDN: Imperva
+X-Iinfo: 18-29259500-29259536 NNNN CT(182 183 0) RT(1667327304336 154) q(0 0 4 -1) r(6 6) U2
+
+{
+    "status": {
+        "result": "SUCCESSFUL"
+    },
+    "iss": "OBDX-OAUTH",
+    "aud": [
+        "GBKTppResourceServer"
+    ],
+    "exp": 1667413703,
+    "jti": "61ZfpoWen3DZrjHoNjXYUhXyRAk=",
+    "iat": 1667327303,
+    "sub": "85a22a0f-5e87-d304-8275-1db6d3afc6c1",
+    "client": "85a22a0f-5e87-d304-8275-1db6d3afc6c1",
+    "domain": "GBKIdentityDomain",
+    "rem_exp": 86398,
+    "scope": [
+        "GBKTppResourceServer.accounts"
+    ]
+}
+Request method:	GET
+Request URI:	https://uatgbonline.e-gulfbank.com/digx/v1/users?partyId=71350268&grant_type=CLIENT_CREDENTIALS&scope=accounts
+Proxy:			<none>
+Request params:	<none>
+Query params:	partyId=71350268
+Form params:	grant_type=CLIENT_CREDENTIALS
+				scope=accounts
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJQUzI1NiJ9.eyJhdWQiOiJHQktUcHBSZXNvdXJjZVNlcnZlciIsInN1YiI6Ijg1YTIyYTBmLTVlODctZDMwNC04Mjc1LTFkYjZkM2FmYzZjMSIsInNjb3BlIjoiR0JLVHBwUmVzb3VyY2VTZXJ2ZXIuYWNjb3VudHMiLCJkb21haW4iOiJHQktJZGVudGl0eURvbWFpbiIsImlzcyI6Ik9CRFgtT0FVVEgiLCJjbGllbnQiOiI4NWEyMmEwZi01ZTg3LWQzMDQtODI3NS0xZGI2ZDNhZmM2YzEiLCJleHAiOjE2Njc0MTM3MDMsImlhdCI6MTY2NzMyNzMwMywianRpIjoiNjFaZnBvV2VuM0RacmpIb05qWFlVaFh5UkFrPSJ9.Y7z4Qcg_HbtNeY8zG8RaaOtox7dZHp89XAqB_ZOibJwkYnZuiVkpWEkKzD-WCCEpoSGZ6fWZcp_h9fDh5a5NIAxKQFTs0Lx13s4idDDFKeCjp8zXaXTQ1I-pOcr8-3WN1Wz_spNQJKD8El8g_5rUCfV6JAuvkw3-bWAhPL_Pq25nDQlBdfN3X63gFn89nWIOObig5YH58vsbqjD3krccL9PHw3RpbAv4T9h0DWK8qdbgYSdTBnlOffeUKSPm-9Zo2zJ51SLu_Ne5r1bjBH8aAqHMLhOBh8sgccvfFrs0_M-5v0JhVbH-s0sX8V_ksEFrFVFVfSmnn53SayIQEp9SDw
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 01 Nov 2022 18:28:27 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Content-Type-Options: nosniff
+X-Frame-Options: ALLOW
+X-ORACLE-DMS-ECID: 005v6nZql0x6qI^5xVK6yW0001bj000IMS
+X-ORACLE-DMS-RID: 0:1
+Set-Cookie: JSESSIONID=3bw0c60B57tEwyGNUzFWkE1i-VIyjChEEeSR0qQo6HcNduywJloU!1364909807; path=/; HttpOnly
+Vary: Accept-Encoding
+Content-Encoding: gzip
+X-XSS-Protection: 1; mode=block
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+X-Content-Type-Options: nosniff
+Referrer-Policy: no-referrer
+Access-Control-Allow-Origin: file://
+Set-Cookie: visid_incap_2558920=NUr2x8MZR8uN9e8RA5r8zUplYWMAAAAAQUIPAAAAAACBhJP+DOVk0DeqNa/Tdv1W; expires=Wed, 01 Nov 2023 16:13:29 GMT; HttpOnly; path=/; Domain=.e-gulfbank.com
+Set-Cookie: incap_ses_1556_2558920=v68NOU5tjjuGAyMV9wWYFUplYWMAAAAAmtvOwRNtYyOu3W9/Mi+MJQ==; path=/; Domain=.e-gulfbank.com
+Set-Cookie: ___utmvmKaBuwfZEZ=HtQKtgJnXpU; path=/; Max-Age=900
+Set-Cookie: ___utmvaKaBuwfZEZ=KzIyCxI; path=/; Max-Age=900
+Set-Cookie: ___utmvbKaBuwfZEZ=RZh XAROnald: stW; path=/; Max-Age=900
+X-CDN: Imperva
+X-Iinfo: 16-22646734-22646756 NNNN CT(173 176 0) RT(1667327305867 132) q(0 1 4 -1) r(10 10) U16
+
+{
+    "status": {
+        "result": "SUCCESSFUL",
+        "contextID": "005v6nZql0x6qI^5xVK6yW0001bj000IMS",
+        "message": {
+            "type": "INFO"
+        }
+    },
+    "userDTOList": [
+        {
+            "creationDate": "2021-10-24T12:14:00",
+            "version": 1,
+            "generatedPackageId": false,
+            "auditSequence": 1,
+            "username": "RETAILPR30",
+            "title": "MISS",
+            "firstName": "AA_NAME1",
+            "middleName": "",
+            "lastName": "AA_NAME2",
+            "partyId": {
+                "displayValue": "71350268",
+                "value": "71350268"
+            },
+            "dateOfBirth": "0942-08-29T00:00:00",
+            "address": {
+                "line1": "",
+                "line2": "",
+                "line3": "",
+                "line4": "",
+                "city": "",
+                "state": "",
+                "country": "",
+                "zipCode": ""
+            },
+            "mobileNumber": "99718572",
+            "phoneNumber": "",
+            "manager": "",
+            "employeeNumber": "",
+            "userGroups": [
+                "retailuser"
+            ],
+            "emailId": "",
+            "lockStatus": "UNLOCK",
+            "homeBranch": "",
+            "homeEntity": "OBDX_BU",
+            "accessibleEntity": [
+                
+            ],
+            "customer": false,
+            "otpSeed": "",
+            "prospect": false,
+            "partyName": "",
+            "organization": "",
+            "employeeType": "",
+            "department": "",
+            "homeAddress": "",
+            "accountAccessSetupDone": false,
+            "deviceUUID": [
+                null
+            ],
+            "forceChangePassword": false,
+            "deleteStatus": false,
+            "lastLoggedInDateTime": "2022-10-28T12:44:03",
+            "preLastLoggedInDateTime": "2022-10-27T16:47:01",
+            "pwdExpiryDate": "2023-03-05T11:57:02",
+            "homePhone": "",
+            "applicationRoles": [
+                "Customer"
+            ],
+            "updatable": true,
+            "enrolledfor2fa": false
+        }
+    ],
+    "moreResultPresent": false
+}
